@@ -1,0 +1,20 @@
+week1_img
+: <a href="https://kr.freepik.com/free-vector/timeline-concept-illustration_8690680.htm#query=plan&position=14&from_view=search&track=sph&uuid=8dd78ce8-9689-4c79-8213-41e194b4e333">작가 storyset</a> 출처 Freepik
+
+week2_img
+: <a href="https://kr.freepik.com/free-vector/management-presents-a-work-plan-for-employee-optimization-in-the-meeting-room_14245118.htm#page=2&query=plan%20discussion&position=16&from_view=search&track=ais&uuid=1120f51c-1f26-4af4-aadc-3c4d71bc2e26">작가 jcomp</a> 출처 Freepik
+
+week3_img
+: 출처 <a href="https://kr.freepik.com/free-vector/desktop-and-smartphone-app-development_10276838.htm#query=programming&position=6&from_view=search&track=sph&uuid=b1417393-ecc8-4831-b335-f4df8472851c">Freepik</a>
+
+week4_img
+: <a href="https://kr.freepik.com/free-vector/software-code-testing-concept-illustration_22635328.htm#query=testing&position=7&from_view=search&track=sph&uuid=158ed6f7-15ca-41ee-8349-d60b3ee5dab7">작가 storyset</a> 출처 Freepik
+
+merit1
+:<a href="https://kr.freepik.com/search?format=search&icon_color=solid-black&last_filter=query&last_value=%EC%83%81%EB%8B%B4&query=%EC%83%81%EB%8B%B4&shape=outline&type=icon">Maxim Basinski Premium 제작 아이콘</a>
+
+merit2
+:<a href="https://kr.freepik.com/icon/project-management_1087927#fromView=search&page=3&position=69&track=sph&uuid=c47a5da1-0b8e-46af-a94a-030813c7a89a">dDara 제작 아이콘</a>
+
+merit3
+:<a href="https://kr.freepik.com/icon/action-plan_5239086#fromView=search&term=%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8&page=1&position=14&track=ais&uuid=8cf1816d-3bed-4261-9e0c-9571b87316ed">rukanicon 제작 아이콘</a>
