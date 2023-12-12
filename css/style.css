@@ -1,0 +1,117 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import "_navbar.css";
+@import "_hero.css";
+@import "_sections.css";
+@import "_fixed_button.css";
+@import "_footer.css";
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size: 18px;
+  color: #464e5e;
+  font-feature-settings: "ss05";
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  user-select: none;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  transition: padding-top 0.3s ease;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  /* 밑줄 제거 */
+  color: inherit;
+  /* 링크 색상을 부모 요소의 색상으로 상속 */
+}
+
+/* Section: program-intro */
+#program-intro {
+  background-color: #f2f2f2; /* 연한 회색 */
+  height: 500px;
+}
+
+/* Section: results-data */
+#results-data {
+  background-color: #e0f1fb; /* 연한 파랑색 */
+  height: 500px;
+}
+
+/* Section: reviews */
+#reviews {
+  background-color: #FFFFFF; /* 연한 회색 */
+}
+
+#experience-reviews {
+  background-color: #e0f1fb; /* 연한 파랑색 */
+}
+
+/* Section: merit */
+#merit {
+  background-color: #FFFFFF; /* 연한 파랑색 */
+}
+
+/* Section: curriculum */
+#curriculum {
+  background-color: #FFFFFF; /* 연한 녹색 */
+}
+
+/* Section: instructor */
+#instructor {
+  background-color: #e5f5f9; /* 연한 청록색 */
+}
+
+/* Section: faq */
+#faq {
+  background-color: #f2f2f2; /* 연한 회색 */
+}
+
+/* Section: contact-us */
+#contact-us {
+  background-color: #2875BB; /* 진한 파랑색 */
+  color: #FFF;
+  height: 500px;
+}
+
+
+/*background: linear-gradient(to bottom left, #2875BB 30%, #18b0c4 100%);*/

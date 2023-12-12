@@ -1,0 +1,74 @@
+/*Recruit banner*/
+.recruitment-banner {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: -150px;
+    transform: translateX(-50%);
+    background: linear-gradient(to bottom left, #2875BB 30%, #18b0c4 100%);
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    transition: right 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.recruitment-banner p {
+    margin: 0;
+}
+
+.recruitment-banner .close {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.recruitment-banner:hover,
+.contact-icon:hover {
+    background: linear-gradient(to bottom left, #5ca6d7 20%, #49c4cd 80%);
+}
+
+.recruitment-banner:active,
+.contact-icon:active {
+    box-shadow: inset 0 0 1rem #2875BB, inset 0 0 2rem #18b0c4;
+}
+
+#doNotShowAgain {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}
+
+#doNotShowAgain:hover {
+    color: #c2c2c2;
+    text-decoration: underline;
+}
+
+/*Contact icon*/
+
+.contact-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    background: linear-gradient(to bottom left, #2875BB 30%, #18b0c4 100%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 13px 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
