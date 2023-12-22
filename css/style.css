@@ -11,6 +11,7 @@ html {
   color: #464e5e;
   font-feature-settings: "ss05";
   overflow-x: hidden;
+  line-height: 1.6;
 }
 
 * {
@@ -21,7 +22,6 @@ img {
   -webkit-user-drag: none;
   -moz-user-drag: none;
   -ms-user-drag: none;
-  user-drag: none;
   user-select: none;
 }
 
@@ -30,21 +30,24 @@ body {
   margin: 0;
   padding: 0;
   transition: padding-top 0.3s ease;
+  user-select: none
 }
 
 h2 {
   font-size: 2em;
-  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 1.7em;
-  text-align: center;
 }
 
 p {
   font-size: 1.3em;
-  line-height: 1.6;
+}
+
+.quotation {
+  font-size: 18px;
+  font-style: italic;
 }
 
 ul,
@@ -60,55 +63,59 @@ ul li {
 
 a {
   text-decoration: none;
-  /* 밑줄 제거 */
   color: inherit;
   /* 링크 색상을 부모 요소의 색상으로 상속 */
+  cursor: pointer;
 }
 
 /* Section: program-intro */
 #program-intro {
-  background-color: #f2f2f2; /* 연한 회색 */
-  height: 500px;
+  background-color: #FFFFFF;
 }
 
 /* Section: results-data */
 #results-data {
-  background-color: #e0f1fb; /* 연한 파랑색 */
-  height: 500px;
+  background-color: #e0f1fb;
 }
 
 /* Section: reviews */
 #reviews {
-  background-color: #FFFFFF; /* 연한 회색 */
-}
-
-#experience-reviews {
-  background-color: #e0f1fb; /* 연한 파랑색 */
+  background-color: #FFFFFF;
 }
 
 /* Section: merit */
 #merit {
-  background-color: #FFFFFF; /* 연한 파랑색 */
+  background-color: #e0f1fb; 
+}
+
+/* Section: comparison */
+#comparison {
+  background-color: #f2f2f2
+}
+
+/* Section: experience-reviews */
+#experience-reviews {
+  background-color: #FFFFFF; 
 }
 
 /* Section: curriculum */
 #curriculum {
-  background-color: #FFFFFF; /* 연한 녹색 */
+  background-color: #f2f2f2; 
 }
 
 /* Section: instructor */
 #instructor {
-  background-color: #e5f5f9; /* 연한 청록색 */
+  background-color: #e5f5f9; 
 }
 
 /* Section: faq */
 #faq {
-  background-color: #f2f2f2; /* 연한 회색 */
+  background-color: #FFFFFF; 
 }
 
 /* Section: contact-us */
 #contact-us {
-  background-color: #2875BB; /* 진한 파랑색 */
+  background-color: #2875BB; 
   color: #FFF;
   height: 500px;
 }
