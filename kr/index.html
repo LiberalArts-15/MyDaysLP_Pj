@@ -73,7 +73,35 @@
     <section class="undersection" id="program-intro">
         <div class="section-content">
             <h2>| 일본 IT 챌린지 프로젝트</h2>
-            <p>프로그램 소개 내용...</p>
+            <p>
+                <h3>
+                    IT미경험 · 문과 출신으로 
+                    톱 IT기업에서 활약하고 있는 강사로부터 배우는 프로젝트 개최!<br>
+                    학원에서는 가르쳐주지 않는 일본 IT기업에서 활약하기 위해 
+                    필요한 스킬을 한 달 만에 배운다!<br>
+                </h3>
+                <h4>
+                    일본 취업의 이유로 가까운 거리나 일본 문화에 대한 관심을 드는 사람도 있고, 
+                    무엇보다 한국에 비해 일본 쪽이 취직하기 쉽다는 점을 꼽는 사람이 많습니다.<br>
+                    그리고 그 배경에는 
+                    한국은 스펙 채용이지만 일본은 포텐셜(가능성) 채용이라는 말이 있을 것입니다.<br>
+                </h4>
+                최근 IT 미경험자(문과 출신)도 
+                엔지니어직 취업이 가능하다는 장점으로 
+                일본 취업을 희망하는 분들이 늘고 있습니다.<br>
+                동시에 일본에서는 압도적으로 엔지니어가 부족하여 구인 요구가 매우 높아지고 있습니다.<br><br>
+                그래서 MyDay에서는<br>
+                ‘시스템 엔지니어, 프로그래머에 대한 경험, 지식은 부족하지만 
+                IT관련 직무를 수행하고 싶다!'<br>
+                '대학 수업이나 독학 이외의 장소에서, 자신의 힘을 시험해 보고 싶다!’<br>
+                위와 같은 생각을 가지고 계신 분들을 위한, 
+                제3회 일본 IT 챌린지 프로그램을 개최하고 있습니다!<br><br>
+                
+                이 프로그램에서는 
+                IT 현장에서의 시스템 개발의 일련의 프로세스를 경험할 수 있으며, 
+                나아가 톱 IT 기업에서 일하는 강사로부터 귀중한 피드백을 받으며 성장할 수 있습니다.
+            </p>
+            <img src="../images/study_together.jpg">
         </div>
     </section>
 
@@ -85,7 +113,7 @@
                     <div class="data-graphic-spec">
                         <img src="../images/data-1.png" id="data1">
                     </div>
-                    <h3>문과 : 이과 비율</h3>
+                    <h3>문과, 이과 비율</h3>
                 </div>
                 <div class="data-graphic" id="result-data-2">
                     <div class="data-graphic-spec">
@@ -160,10 +188,55 @@
         </div>
     </section>
 
-    <section class="undersection" id="points">
+    <section class="undersection" id="comparison">
         <div class="section-content">
             <h2>| 다른 프로그래밍 교육과의 차이점</h2>
-            <p> 소개 내용...</p>
+            <h3>Myday는 이렇게 다릅니다.</h3>
+            <div class="comparison-table">
+                <table>
+                    <!-- 첫 번째 행 -->
+                    <tr>
+                        <th>일반 프로그래밍 교실</th>
+                        <th>IT 챌린지 프로젝트</th>
+                    </tr>
+                    <!-- 두 번째 행 -->
+                    <tr class="toggle-row">
+                        <td>
+                            <div class="comparison-point">
+                                <p>결과 중심 교육</p>
+                            </div>
+                            <div class="comparison-content hidden">
+                                프로그래밍 기술을 가르침<br>
+                                프로그래머로서의 스킬을 중시
+                            </div>
+                        </td>
+                        <td>
+                            <div class="comparison-point">
+                                <p>과정 중심 교육</p>
+                            </div>
+                            <div class="comparison-content hidden">
+                                가르침 최소화<br>
+                                스스로 생각하여 실천하는 시간을 중시
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- 세 번째 행 -->
+                    <tr class="toggle-row">
+                        <td>셀 3-1</td>
+                        <td>셀 3-2</td>
+                    </tr>
+                    <!-- 네 번째 행 -->
+                    <tr class="toggle-row">
+                        <td>셀 4-1</td>
+                        <td>셀 4-2</td>
+                    </tr>
+                    <!-- 다섯 번째 행 -->
+                    <tr class="toggle-row">
+                        <td>셀 5-1</td>
+                        <td>셀 5-2</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </section>
     
@@ -257,7 +330,7 @@
                 </div>
     
                 <div class="faq-list">
-                    <div class="faq-item" data-category="category1">
+                    <div class="faq-item toggle-row" data-category="category1">
                         <div class="question" onclick="toggleAnswer('answer1-1')">
                             Q. IT 관련 경험이 없어도 참여할 수 있나요?
                         </div>
@@ -399,6 +472,7 @@
                 </div> 
                 <div>
                     접수 마감까지
+                    <!--move to JS: Setting Date-->
                     <p id="days"></p>일 
                     <p id="hours"></p>시간 
                     <p id="minutes"></p>분 
@@ -418,7 +492,7 @@
     <footer>
         <p>Copyright ©2023 MYDAY INTERNATIONAL. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
