@@ -42,3 +42,9 @@ businesswoman
 
 businessman
 <a href="https://www.freepik.com/icon/businessman_3220312#fromView=resource_detail&position=3">Icon by Freepik</a>
+
+student1
+<a href="https://kr.freepik.com/icon/student_2995467">Freepik 제작 아이콘</a>
+
+student2
+<a href="https://kr.freepik.com/icon/student_2995467">Freepik 제작 아이콘</a>
