@@ -76,6 +76,91 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 //비교
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleRows = document.querySelectorAll('.toggle-row');
+
+    toggleRows.forEach(row => {
+        row.addEventListener('click', function () {
+            // 해당 행의 'show' 클래스를 토글
+            row.classList.toggle('show');
+
+            // 다른 행의 'show' 클래스 제거
+            toggleRows.forEach(otherRow => {
+                if (otherRow !== row) {
+                    otherRow.classList.remove('show');
+                }
+            });
+        });
+    });
+});
+
+//data섹션 p태그 높이 고정
+const dataGraphics = document.querySelectorAll('.data-graphic');
+let maxHeight = 0;
+
+dataGraphics.forEach(graphic => {
+    const pTag = graphic.querySelector('p');
+    const pHeight = pTag.clientHeight;
+
+    if (pHeight > maxHeight) {
+        maxHeight = pHeight;
+    }
+});
+
+// 모든 .data-graphic 요소 내의 p 태그에 maxHeight를 적용
+dataGraphics.forEach(graphic => {
+    const pTag = graphic.querySelector('p');
+    pTag.style.height = `${maxHeight}px`;
+});
+
+// experience-reviews
+document.addEventListener('DOMContentLoaded', () => {
+
+    const cards = document.querySelectorAll(".card")
+    for(const card of cards) {
+      card.addEventListener("click", flipper)
+    }
+    
+      function flipper (event) {
+        const target = event.currentTarget
+        target.style.transform = "rotateY(180deg)"
+        target.addEventListener("click", innerFlipper)
+      }
+  
+      function innerFlipper (event) {
+        const target = event.currentTarget
+        target.style.transform = "rotateY(0deg)"
+        target.addEventListener("click", flipper)
+        target.removeEventListener("click", innerFlipper)
+      }
+  })
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.querySelector(".card-container");
+
+    let isDragging = false;
+    let startX;
+
+    container.addEventListener("mousedown", (e) => {
+        isDragging = true;
+        startX = e.pageX - container.offsetLeft;
+    });
+
+    container.addEventListener("mousemove", (e) => {
+        if (!isDragging) return;
+        const x = e.pageX - container.offsetLeft;
+        const scrollLeft = container.scrollLeft + startX - x;
+        container.scrollLeft = scrollLeft;
+    });
+
+    container.addEventListener("mouseup", () => {
+        isDragging = false;
+    });
+
+    container.addEventListener("mouseleave", () => {
+        isDragging = false;
+    });
+});
 
 
 //커리큘럼 화면전환
@@ -220,9 +305,9 @@ var closeBanner = document.getElementById('closeBanner');
 var doNotShowAgain = document.getElementById('doNotShowAgain');
 
 // 배너 닫기
-closeBanner.addEventListener('click', function () {
-    recruitmentBanner.style.display = 'none';
-});
+// closeBanner.addEventListener('click', function () {
+//    recruitmentBanner.style.display = 'none';
+// });
 
 function updateCountdown() {
     // Setting Date
