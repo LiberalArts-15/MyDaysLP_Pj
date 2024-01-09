@@ -1,3 +1,4 @@
+@media all and (min-width: 1024px) {
 /*navbar*/
 .menu-toggle {
     display: none;
@@ -168,7 +169,7 @@ body.scrolled {
 .dropdown-content a:hover {
     background-color: #511299
 }
-
+}
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
 /*navbar*/
@@ -346,7 +347,7 @@ body.scrolled {
 
 
 @media all and (max-width: 767px) {
-    /*navbar*/
+/*navbar*/
 
 .menu-toggle {
     display: none;
@@ -368,7 +369,7 @@ body.scrolled {
     height: 70px;
     background: linear-gradient(to bottom, #2875BB, #18b0c4);
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 5px;
     z-index: 10;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -382,7 +383,7 @@ body.scrolled {
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 10px 5px;
     display: flex;
     align-items: center;
 }
@@ -391,17 +392,18 @@ body.scrolled {
     padding-top: 70px;
 }
 
-.navbar-left,
-.navbar-center {
+.navbar-left {
     display: flex;
     align-items: center;
+}
+
+.navbar-center {
+    display: none;
 }
 
 .navbar-left {
     display: flex;
     align-items: center;
-    margin-right: 15px;
-    /* navbar-left와 navbar-center 사이의 여백 */
 }
 
 .navbar-left img {
@@ -412,48 +414,16 @@ body.scrolled {
 }
 
 .navbar-right {
-    display: flex;
-    align-items: center;
-}
-
-.company-name {
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.navbar-center {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    /* 가운데 영역이 남은 공간을 최대한 확장하도록 설정 */
-    font-size: 0.9em;
-}
-
-.navbar-center ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    /* 요소를 가운데 정렬합니다. */
-}
-
-.navbar-center ul li {
-    margin-right: 8px;
-    /* 메뉴 간 여백 */
-}
-
-.navbar-center ul li:last-child {
-    margin-right: 0;
-    /* 마지막 메뉴는 여백 없음 */
-}
-
-#nav-curriculum {
     display: none;
 }
 
 .faq-contact {
     display: none;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .insta-globe {

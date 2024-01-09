@@ -209,16 +209,13 @@
   display: block;
   position: fixed;
   width: 100%;
-  bottom: 2.7%;
+  bottom: 3%;
   left: 50%;
   transform: translateX(-50%) translateY(50%);
   background: linear-gradient(to bottom, #2875BB, #18b0c4);
   color: #fff;
-  padding: 0 10px;
   text-align: center;
-  transition: right 0.3s ease-in-out;
   z-index: 1000;
-  font-size: 0.8em;
 }
 
 .recruitment-content {
@@ -229,12 +226,12 @@
 }
 
 .recruitment-content > div {
-  margin: 0 30px; 
+  margin: 0 10px; 
 }
 
 .recruitment-content h3 {
-  margin: 15px auto; /* 또는 원하는 값으로 조절 */
-  font-size: 1.3em;
+  margin: 8px 0; /* 또는 원하는 값으로 조절 */
+  font-size: 1em;
 }
 
 .recruitment-banner p {
@@ -244,14 +241,15 @@
 
 .recruit-btn {
   display: inline-block;
-  margin: 5px 10px 10px;
-  padding: 5px 20px;
+  margin: 5px 5px;
+  padding: 3px 10px;
   text-decoration: none;
   background: #FFF;
   color: #464e5e;
   border-radius: 20px;
   font-weight: bold;
   box-shadow: 3px 4px 0 rgb(0, 0, 0, 0.5);
+  font-size: 0.7em;
 }
 
 .recruit-btn:active {
@@ -264,7 +262,7 @@
 /*Contact icon*/
 .contact-icon {
   position: fixed;
-  bottom: 85px;
+  bottom: 55px;
   right: 10px;
   background: linear-gradient(to bottom left, #2875BB 30%, #18b0c4 100%);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);

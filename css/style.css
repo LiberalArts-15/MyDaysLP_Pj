@@ -5,12 +5,17 @@
 @import "_fixed_button.css";
 @import "_footer.css";
 
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
+
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 18px;
   color: #464e5e;
   font-feature-settings: "ss05";
-  overflow-x: hidden;
   line-height: 1.6;
 }
 
