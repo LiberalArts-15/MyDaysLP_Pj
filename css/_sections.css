@@ -670,7 +670,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #d9f4ff;
 }
 
 .back {
@@ -679,7 +679,7 @@
     justify-content: flex-start; 
     align-items: center;
     transform: rotateY(180deg);
-    background-color: #d3d3d3;
+    background-color: #f0f0f0;
     padding: 50px 20px;
 }
 
@@ -1107,7 +1107,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #d9f4ff;
 }
 
 .back {
@@ -1116,7 +1116,7 @@
     justify-content: flex-start; 
     align-items: center;
     transform: rotateY(180deg);
-    background-color: #d3d3d3;
+    background-color: #f0f0f0;
     padding: 50px 20px;
 }
 
