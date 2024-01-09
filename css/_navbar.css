@@ -369,9 +369,9 @@ body.scrolled {
     height: 70px;
     background: linear-gradient(to bottom, #2875BB, #18b0c4);
     color: #fff;
-    padding: 10px 5px;
     z-index: 10;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    padding: 15px 10px;
 }
 
 .navbar-hidden {
@@ -383,7 +383,6 @@ body.scrolled {
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
-    padding: 10px 5px;
     display: flex;
     align-items: center;
 }
@@ -397,20 +396,18 @@ body.scrolled {
     align-items: center;
 }
 
+.company-name {
+    display: flex;
+    padding: 0 0 8px;
+}
+
 .navbar-center {
     display: none;
 }
 
-.navbar-left {
-    display: flex;
-    align-items: center;
-}
-
 .navbar-left img {
-    max-width: 40px;
-    /* 로고 이미지의 최대 너비 */
+    max-width: 70px;
     margin-right: 10px;
-    /* 로고와 이름 사이의 여백 */
 }
 
 .navbar-right {
@@ -423,18 +420,17 @@ body.scrolled {
 
 .company-name {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .insta-globe {
     display: flex;
     align-items: center;
-    /* 세로 정렬을 위한 추가 스타일 */
 }
 
 .insta-globe img,
 .dropdown-btn {
-    max-width: 20px;
+    max-width: 23px;
     height: auto;
     margin-right: 15px;
     cursor: pointer;
