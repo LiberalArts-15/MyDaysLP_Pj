@@ -1,9 +1,4 @@
 /*navbar*/
-.navbar-right {
-    display: flex;
-    align-items: center;
-}
-
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -72,6 +67,11 @@ body.scrolled {
     font-size: 22px;
 }
 
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
 .navbar-center {
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@ body.scrolled {
     /* 우측 여백을 최대화하여 우측 정렬 */
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .faq-contact a {
@@ -167,4 +167,341 @@ body.scrolled {
 
 .dropdown-content a:hover {
     background-color: #511299
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+/*navbar*/
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to bottom, #2875BB, #18b0c4);
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 10;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.navbarcontainer {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+body.scrolled {
+    padding-top: 70px;
+}
+
+.navbar-left,
+.navbar-center {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    /* navbar-left와 navbar-center 사이의 여백 */
+}
+
+.navbar-left img {
+    max-width: 40px;
+    /* 로고 이미지의 최대 너비 */
+    margin-right: 10px;
+    /* 로고와 이름 사이의 여백 */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navbar-center {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    /* 가운데 영역이 남은 공간을 최대한 확장하도록 설정 */
+}
+
+.navbar-center ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* 요소를 가운데 정렬합니다. */
+}
+
+.navbar-center ul li {
+    margin-right: 10px;
+    /* 메뉴 간 여백 */
+}
+
+.navbar-center ul li:last-child {
+    margin-right: 0;
+    /* 마지막 메뉴는 여백 없음 */
+}
+
+.navbar-center a:hover {
+    color: #c2c2c2;
+    text-decoration: underline;
+}
+
+.faq-contact {
+    margin-left: auto;
+    /* 우측 여백을 최대화하여 우측 정렬 */
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.faq-contact a {
+    margin-right: 10px;
+    color: #fff;
+    /* 링크 색상 */
+    text-decoration: none;
+}
+
+.insta-globe {
+    display: flex;
+    align-items: center;
+    /* 세로 정렬을 위한 추가 스타일 */
+}
+
+.insta-globe img,
+.dropdown-btn {
+    max-width: 20px;
+    height: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 0 auto;
+    margin: 0 -5px;
+    top: 100%;
+    width: 30px;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.dropdown-content a:hover {
+    background-color: #511299
+}
+
+}
+
+
+
+
+@media all and (max-width: 767px) {
+    /*navbar*/
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to bottom, #2875BB, #18b0c4);
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 10;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.navbarcontainer {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+body.scrolled {
+    padding-top: 70px;
+}
+
+.navbar-left,
+.navbar-center {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    /* navbar-left와 navbar-center 사이의 여백 */
+}
+
+.navbar-left img {
+    max-width: 40px;
+    /* 로고 이미지의 최대 너비 */
+    margin-right: 10px;
+    /* 로고와 이름 사이의 여백 */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar-center {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    /* 가운데 영역이 남은 공간을 최대한 확장하도록 설정 */
+    font-size: 0.9em;
+}
+
+.navbar-center ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* 요소를 가운데 정렬합니다. */
+}
+
+.navbar-center ul li {
+    margin-right: 8px;
+    /* 메뉴 간 여백 */
+}
+
+.navbar-center ul li:last-child {
+    margin-right: 0;
+    /* 마지막 메뉴는 여백 없음 */
+}
+
+#nav-curriculum {
+    display: none;
+}
+
+.faq-contact {
+    display: none;
+}
+
+.insta-globe {
+    display: flex;
+    align-items: center;
+    /* 세로 정렬을 위한 추가 스타일 */
+}
+
+.insta-globe img,
+.dropdown-btn {
+    max-width: 20px;
+    height: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 0 auto;
+    margin: 0 -5px;
+    top: 100%;
+    width: 30px;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.dropdown-content a:hover {
+    background-color: #511299
+}
+
 }
